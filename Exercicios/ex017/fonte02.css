@@ -1,0 +1,10 @@
+@charset "UTF_8";
+
+h1{
+    font:italic 3em bold arial, sans-serif;
+    color: rgb(2, 1, 1);
+    text-align: right;
+}
+p{
+    text-indent: 20px;
+}

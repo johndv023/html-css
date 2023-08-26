@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body{
+    height: 100%;
+}
+
+body {
+    background-image:radial-gradient(circle, #0FC2C0,
+    #0CABA8, #008F8C, #015958 ,#023535); 
+    background-attachment: fixed;
+}
+
+div{
+    border: 6px solid black;
+    width: 800px;
+    padding: 10px;
+    box-shadow: 5px 5px 15px black;
+
+}
+
+div:hover{
+    background-color: rgb(224, 91, 91);
+    display: block;
+}
+
+div > p{
+    display: none;
+}
+
+div:hover > p{
+    display: block;
+}
+
+
+

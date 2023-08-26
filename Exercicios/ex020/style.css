@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'disney';
+    src: url(font/disney.ttf);
+}
+
+body{
+    font: italic bold 3em arial, sans-serif;
+}
+
+div:hover > p{
+    display: block;
+    background-color: brown;
+}
+div > p{
+    display: none;
+    color: aliceblue;
+    background-color: black;
+}
+p#kk{
+    width: 200px;
+    color: rgb(255, 255, 255);
+    font: normal bold 3em 'disney';
+}
